@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mooz
 
 ## Table of Contents
@@ -11,14 +10,15 @@
 
 # Application Features
 
-- Users can login using their Google Account to sign in to the account
-![](./GIFs/Login.mp4)
-- Clicking on *Find a Match* will help find a match for the user to create a video room for
-![](./GIFs/starting_call.mp4)
-- Entering the room, a unique room ID is generated and after giving permissions to the browser to use the microphone and video, the user can then chat with their match!
-![](./GIFs/connect_call.mp4)
+- Users can login using their Google Account to sign in to the application
+![](./GIFs/login.gif)
+- Clicking on *Find a Match* will help find a match for the user to create a video room.
+![](./GIFs/find_match.gif)
+- Entering the room, a unique room ID is generated and after giving permissions to the browser to use the microphone and video, the user can then chat with their match! The matchmaking logic is still a WIP, but currently, any user with the same URL can enter the room.
+![](./GIFs/connect_call.gif)
 - Leaving the room returns the user back into the original lobby, where they can then find a new match. Also, when a user leaves a room, they are removed immediately from all active participant screens
-![](./GIFs/ending_call.mp4)
+![](./GIFs/end_call.gif)
+
 ## Requirements
 
 To run this app, you will need Node.js and npm installed on your environement
@@ -44,7 +44,7 @@ The application will be running on port 3000 and the PeerJS server will run on p
 
 ### JavaScript
 
-- [React](http://facebook.github.io/react) is used for UI
+- [React](http://facebook.github.io/react) is used for UI and interactive components
 
 ### CSS
 
@@ -52,7 +52,7 @@ The application will be running on port 3000 and the PeerJS server will run on p
 
 ### HTTP Client Requests
 
-- [Axios](https://www.npmjs.com/package/axios) to handle client side requests to the News API
+- [Axios](https://www.npmjs.com/package/axios) to handle client side requests to the Node server
 
 ### Peer to Peer Connections
 
@@ -62,6 +62,3 @@ The application will be running on port 3000 and the PeerJS server will run on p
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-=======
-# Mooz
->>>>>>> upstream/main
