@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mooz
 
 ## Table of Contents
@@ -61,3 +62,6 @@ The application will be running on port 3000 and the PeerJS server will run on p
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
+# Mooz
+>>>>>>> upstream/main
