@@ -1,5 +1,7 @@
 # Mooz
 
+Mooz is a web application that allows a user to match with their favorite bovinae over video
+
 ## Table of Contents
 
 - [Application Features](#application-features)
